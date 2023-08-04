@@ -15,6 +15,34 @@
             font-family: Brand;
             src: url(Abuget.ttf);
         }
+        .homepage {
+            /* The image used */
+            background-image: url("homepage.jpg");
+
+            /* Set a specific height */
+            min-height: 500px;
+            min-width: 500px; 
+
+            /* Create the parallax scrolling effect */
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .portraits {
+            /* The image used */
+            background-image: url("portraits.jpg");
+
+            /* Set a specific height */
+            min-height: 500px;
+            min-width: 500px; 
+
+            /* Create the parallax scrolling effect */
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
     </style>
 </head>
 <body>
@@ -23,7 +51,7 @@
             <a href="" class="navbar-brand">
                 <h1 style="font-family: Brand;">
                     <img class="img-fluid w-20" src="image_1000000047.jpg" alt="Logo" height="100" width="100">
-                    Brandon Burke
+                    <!-- B Burke -->
                 </h1>
             </a>
             <button 
@@ -47,10 +75,28 @@
                     <a href="https://www.facebook.com/bburkeproductions" target="_blank" class="facebook"><i class="bi-facebook p-2" style="font-size: 2rem;"></i></a>
                     <a href="https://www.instagram.com/bburkeproductions" target="_blank" class="instagram"><i class="bi-instagram p-2" style="font-size: 2rem; color: slateblue;"></i></a>
                     <a href="https://www.tiktok.com/@bburkeproductions" target="_blank" class="tiktok"><i class="bi-tiktok p-2" style="font-size: 2rem; color: crimson;"></i></a>
-            </div>
+                </div>
             </div>
         </div>
     </nav>
+    <section class="bg-dark text-light p-5 text-center">
+        <div class="container">
+            <div class="homepage">
+                <div class="container p-5">
+                    <h1 class="display-1" style="font-family: Brand;">B Burke</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-dark text-light p-5 text-center">
+        <div class="portraits">
+            <div class="parallax">
+                <div class="container p-5">
+                    <h1 class="display-1" style="font-family: Brand;">Portraits</h1>
+                </div>
+            </div>
+        </div>
+    </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>
